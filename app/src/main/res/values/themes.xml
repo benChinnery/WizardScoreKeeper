@@ -6,4 +6,13 @@
     </style>
 
     <style name="Theme.WizardScoreBoard" parent="Base.Theme.WizardScoreBoard" />
+
+    <style name="Theme.WizardScoreBoard.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.WizardScoreBoard.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.WizardScoreBoard.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
